@@ -4,4 +4,4 @@ from .models import Cars
 class CarsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Cars
-        field = ['id', 'make', 'model', 'year', 'price']
+        fields = ['id', 'make', 'model', 'year', 'price']
